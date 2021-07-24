@@ -264,6 +264,12 @@ textarea {
   }
 }
 
+body { 
+	max-width: 1080px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+}
+
 #content {
   overflow: auto;
   height: 100%;
@@ -281,21 +287,22 @@ li {
 }
 
 .columns{
-  padding: 2rem;
+  justify-content: center;
+  align-content: center;
 }
 
 .columns > ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
   grid-gap: 1rem;
 }
-.breweries > ul > li {
+.columns > ul > li {
   border: 1px solid #E2E2E2;
   border-radius: .5rem;
 
 }
 
-.breweries > ul > li > p {
+.columns > ul > li > p {
   font-size: 1rem;
   line-height: 1.5;
   padding: 1rem .75rem;
