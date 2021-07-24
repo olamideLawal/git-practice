@@ -265,24 +265,14 @@ textarea {
 }
 
 body { 
-	max-width: 1080px; 
+	max-width: 1800px; 
 	margin: 0 auto !important; 
 	float: none !important; 
   background-image: url('/Users/olamidelawal/Documents/GitHub/git-practice/img/bg.png');
   background-repeat: no-repeat;
   background-color: #0B1D26;
 
-}
 
-#header{
-  margin-top: 0px;
-  margin-bottom: 200px;
-
-}
-
-#feature{
-  margin-top: 60px;
-  margin-bottom: 600px;
 }
 
 
@@ -297,12 +287,11 @@ h2{
 h3{
   /* Group 17 */
 
-
-position: static;
-width: 316px;
+width: 1400px;
 height: 22px;
 left: 0px;
 top: 0px;
+text-align: left;
 
 
 /* Inside Auto Layout */
@@ -318,8 +307,6 @@ h4{
 
   /* Be prepared for the Mountains and beyond! */
 
-
-position: static;
 width: 950px;
 height: 200px;
 left: 0px;
@@ -330,6 +317,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 88px;
 line-height: 100px;
+text-align: left;
 /* or 114% */
 
 text-transform: capitalize;
@@ -340,47 +328,100 @@ color: #FFFFFF;
 
 }
 
+p{
+
+margin: 257px 60px;
+margin-left: 200px;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+
+
+
+
+
 /*#content {
   overflow: auto;
   height: 100%;
 }*/
 
-/* #nav, #feature, #footer {
-  background-color: #143d52;
-  padding: 10px;
-  margin: 10px;
-}*/
+#nav, #footer {
 
-section.columns {
-	float: left;
-	width: 990px;
-	border-right: 1px solid #eeeeee;
-	margin: 10px;
-	padding: 10px;
+  padding: 10px;
+  margin: 60px;
+
+}
+
+#feature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 950px;
+  height: 310px;
+  left: 500px;
+  top: 287px;
 }
 
 
 figure {
 	float: left;
-	width: 290px;
-	height: 220px;
+	width: auto;
 	padding: 5px;
 	margin: 20px;
+  margin-right: 150px;
+  margin-bottom: 200px;
 	border: 1px solid #eeeeee;
 }
 article {
-	clear: both;
-	overflow: auto;
-	width: 100%;
-	color: #000000;
+	/*clear: both;*/
+	/*overflow: auto;*/
+	width: 1050px;
+	color: #ffffff;
+  
+
+}
+
+p.columns
+{
+  text-align: left;
+  width: 200px;
+  
+
 }
 
 hgroup {
-	margin-top: 40px;
+
+margin-top: 90px;
+
+
+  /* Text */
+position: static;
+width: 100%;
+left: 0px;
+top: 49px;
+text-align: left;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
 }
 
 
 li {
+  margin-top: 20px;
   display: inline;
   padding: 5px;
 }
@@ -389,19 +430,30 @@ img {
   display: block;
   margin-left:auto;
   margin-right:auto;
-  max-width:100%;
-  max-height:100%;}
+}
 
 
 .columns{
   justify-content: center;
   align-content: center;
+  margin: 300px;
+  /* Auto Layout */
+  
 }
 
 .columns > ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(8000px,1fr));
-  grid-gap: 1rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(1500px,1fr));
+grid-gap: 1rem;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 1463px;
+height: 3040px;
+left: 260px;
+top: 1398px;
   
 }
 .columns > ul > li {
@@ -416,5 +468,6 @@ img {
   line-height: 1.5;
   padding: 1rem .75rem;
   color: #E2E2E2;
+ 
 }
 
