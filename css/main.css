@@ -268,10 +268,20 @@ body {
 	max-width: 1080px; 
 	margin: 0 auto !important; 
 	float: none !important; 
-  background-image: url('img/bg.png');
+  background-image: url('/Users/olamidelawal/Documents/GitHub/git-practice/img/bg.png');
   background-color: #143d52;
 }
 
+#header{
+  margin-top: 0px;
+  margin-bottom: 200px;
+
+}
+
+#feature{
+  margin-top: 60px;
+  margin-bottom: 600px;
+}
 
 
 h1{
@@ -282,15 +292,65 @@ h2{
   float:right;
 }
 
+h3{
+  /* Group 17 */
+
+
+position: static;
+width: 316px;
+height: 22px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 32px 0px;
+  color: #FBD784
+}
+
+h4{
+
+  /* Be prepared for the Mountains and beyond! */
+
+
+position: static;
+width: 950px;
+height: 200px;
+left: 0px;
+top: 54px;
+
+font-family: Chronicle Display;
+font-style: normal;
+font-weight: 600;
+font-size: 88px;
+line-height: 100px;
+/* or 114% */
+
+text-transform: capitalize;
+
+/* Weiß */
+
+color: #FFFFFF;
+
+}
+
 #content {
   overflow: auto;
   height: 100%;
 }
 
-#nav, #feature, #footer {
+/* #nav, #feature, #footer {
   background-color: #143d52;
   padding: 10px;
   margin: 10px;
+}*/
+
+figure{
+size: 20px;
 }
 
 li {
@@ -306,12 +366,14 @@ li {
 
 .columns > ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(660px,1fr));
   grid-gap: 1rem;
+  
 }
 .columns > ul > li {
   border: 1px solid #E2E2E2;
   border-radius: .5rem;
+  height: 200px;
 
 }
 
@@ -319,6 +381,6 @@ li {
   font-size: 1rem;
   line-height: 1.5;
   padding: 1rem .75rem;
-  color: #666666;
+  color: #E2E2E2;
 }
 
