@@ -269,7 +269,9 @@ body {
 	margin: 0 auto !important; 
 	float: none !important; 
   background-image: url('/Users/olamidelawal/Documents/GitHub/git-practice/img/bg.png');
-  background-color: #143d52;
+  background-repeat: no-repeat;
+  background-color: #0B1D26;
+
 }
 
 #header{
@@ -338,10 +340,10 @@ color: #FFFFFF;
 
 }
 
-#content {
+/*#content {
   overflow: auto;
   height: 100%;
-}
+}*/
 
 /* #nav, #feature, #footer {
   background-color: #143d52;
@@ -349,14 +351,46 @@ color: #FFFFFF;
   margin: 10px;
 }*/
 
-figure{
-size: 20px;
+section.columns {
+	float: left;
+	width: 990px;
+	border-right: 1px solid #eeeeee;
+	margin: 10px;
+	padding: 10px;
 }
+
+
+figure {
+	float: left;
+	width: 290px;
+	height: 220px;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #eeeeee;
+}
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+	color: #000000;
+}
+
+hgroup {
+	margin-top: 40px;
+}
+
 
 li {
   display: inline;
   padding: 5px;
 }
+
+img {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:100%;
+  max-height:100%;}
 
 
 .columns{
@@ -366,7 +400,7 @@ li {
 
 .columns > ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(660px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(8000px,1fr));
   grid-gap: 1rem;
   
 }
