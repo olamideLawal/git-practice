@@ -265,148 +265,170 @@ textarea {
 }
 
 body { 
-	max-width: 1800px; 
-	margin: 0 auto !important; 
-	float: none !important; 
-  background-image: url('/Users/olamidelawal/Documents/GitHub/git-practice/img/bg.png');
-  background-repeat: no-repeat;
-  background-color: #0B1D26;
-
-
+max-width: 1800px; 
+margin: 0 auto !important; 
+float: none !important; 
+background-image: url('../img/bg.png');
+background-repeat: no-repeat;
+background-color: #0B1D26;
+/*background-size: cover;*/
 }
-
 
 h1{
   float:left;
 }
 
 h2{
-  float:right;
+ float:right;
 }
 
 h3{
   /* Group 17 */
-
 width: 1400px;
 height: 22px;
 left: 0px;
 top: 0px;
 text-align: left;
-
-
+letter-spacing: 6px;
 /* Inside Auto Layout */
-
 flex: none;
 order: 0;
 flex-grow: 0;
 margin: 32px 0px;
-  color: #FBD784
+color: #FBD784
 }
 
 h4{
-
   /* Be prepared for the Mountains and beyond! */
+  width: 950px;
+  height: 200px;
+  left: 0px;
+  top: 54px;
+  font-family: Chronicle Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 100px;
+  text-align: left;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0px;
+}
 
-width: 950px;
-height: 200px;
+h6{
+font-style: bold;
+font-size: 18px;
+letter-spacing: 6px;
+height: 22px;
 left: 0px;
-top: 54px;
+top: 0px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 27px 0px;
+color: #FBD784;
+}
 
+h7{
+  /* Be prepared for the Mountains and beyond! */
 font-family: Chronicle Display;
 font-style: normal;
-font-weight: 600;
-font-size: 88px;
+font-size: 70px;
 line-height: 100px;
 text-align: left;
-/* or 114% */
-
-text-transform: capitalize;
-
-/* Weiß */
-
 color: #FFFFFF;
-
 }
 
 p{
-
-margin: 257px 60px;
-margin-left: 200px;
 font-family: Roboto;
 font-size: 18px;
 font-style: normal;
-font-weight: 400;
-line-height: 32px;
+font-weight: 800;
+line-height: 42px;
 letter-spacing: 0px;
 text-align: left;
-
+width: 100%;
 }
-
-
-
-
-
 
 /*#content {
   overflow: auto;
   height: 100%;
 }*/
 
+#header{
+
+  position: absolute;
+  width: 38px;
+  height: 22px;
+  left: 984px;
+  top: 2px;
+  
+
+}
 #nav, #footer {
-
-  padding: 10px;
-  margin: 60px;
-
+padding: 10px;
+margin: 60px;
 }
 
 #feature {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  
-  position: absolute;
-  width: 950px;
-  height: 310px;
-  left: 500px;
-  top: 287px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 950px;
+height: 310px;
+left: 500px;
+top: 287px;
 }
 
-
-figure {
-	float: left;
-	width: auto;
-	padding: 5px;
-	margin: 20px;
-  margin-right: 150px;
-  margin-bottom: 200px;
-	border: 1px solid #eeeeee;
+a{
+color: #FFFFFF;
 }
+
 article {
 	/*clear: both;*/
 	/*overflow: auto;*/
-	width: 1050px;
 	color: #ffffff;
-  width: 1350px;
-  
-
+  width: 1500px;
 }
 
-p.columns
-{
+figure {
+  float: left;
+  width: auto;
+  /* padding: 5px; */
+  margin: 20px;
+  margin-right: 150px;
+  margin-bottom: 200px;
+}
+
+figure.img{
+max-width: 50%;
+height:auto;
+}
+figure1 {
+  float: right;
+  width: auto;
+  /* padding: 5px; */
+  margin: 20px;
+  margin-left: 150px;
+  margin-bottom: 200px;
+}
+
+figure1.img{
+  max-width: 50%;
+  height:auto;
+}
+
+p.columns{
   text-align: left;
   width: 200px;
-  
-
 }
 
 hgroup {
 
 margin-top: 90px;
-
-
-  /* Text */
-position: static;
 width: 100%;
 left: 0px;
 top: 49px;
@@ -417,14 +439,18 @@ text-align: left;
 flex: none;
 order: 1;
 flex-grow: 0;
-
 }
 
 
 li {
-  margin-top: 20px;
-  display: inline;
-  padding: 5px;
+margin-top: 20px;
+display: inline;
+padding: 5px;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 22px;
+
 }
 
 img {
@@ -432,7 +458,6 @@ img {
   margin-left:auto;
   margin-right:auto;
 }
-
 
 .columns{
   justify-content: center;
@@ -456,6 +481,7 @@ left: 260px;
 top: 1398px;
   
 }
+
 .columns > ul > li {
   border: 1px solid #E2E2E2;
   border-radius: .5rem;
