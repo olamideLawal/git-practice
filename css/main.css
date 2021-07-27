@@ -387,6 +387,7 @@ article {
 	/*overflow: auto;*/
 	width: 1050px;
 	color: #ffffff;
+  width: 1350px;
   
 
 }
@@ -436,7 +437,6 @@ img {
 .columns{
   justify-content: center;
   align-content: center;
-  margin: 300px;
   /* Auto Layout */
   
 }
