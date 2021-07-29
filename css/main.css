@@ -407,6 +407,7 @@ figure.img{
 max-width: 50%;
 height:auto;
 }
+
 figure1 {
   float: right;
   width: auto;
@@ -441,6 +442,13 @@ order: 1;
 flex-grow: 0;
 }
 
+figure2{
+  float: left;
+  width: auto;
+  /* padding: 5px; */
+  /* margin-bottom: 200px;
+}
+
 
 li {
 margin-top: 20px;
@@ -466,6 +474,21 @@ img {
   
 }
 
+.top-right {
+  position: absolute;
+  width: 600px;
+  margin: 50px;
+  margin-left: 150px;
+}
+
+
+.top-left{
+  width: 585px;
+  position: absolute;
+  margin: 50px;
+  margin-left: 880px;
+}
+
 .columns > ul {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(1500px,1fr));
@@ -473,7 +496,6 @@ grid-gap: 1rem;
 flex-direction: column;
 align-items: center;
 padding: 0px;
-
 position: absolute;
 width: 1463px;
 height: 3040px;
